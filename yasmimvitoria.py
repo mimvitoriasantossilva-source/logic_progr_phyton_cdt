@@ -43,5 +43,5 @@ def lavar_cabelo():
 
         return resultado
     
-    meu_cabelo = lavar_cabelo(shampoo)
+    meu_cabelo = lavar_cabelo(shampoo=True)
     print(f'Resultado: {meu_cabelo}')
